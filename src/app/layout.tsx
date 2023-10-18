@@ -11,7 +11,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <title>YouTube</title>
-        <link rel="icon" href="page_logo_jpeg"></link>
+        <link rel="icon" type="image/x-icon" href="/page_logo.jpeg" sizes='16%16' />
         <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
       </head>
