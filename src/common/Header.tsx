@@ -12,7 +12,7 @@ const Header: React.FC = () => {
                 <div className="row">
                     <Link href='/'>
                         <div className="left">
-                            <Image src='/logo.jpeg' width={140} height={85} alt='Youtube' />
+                            <Image src='/logo.jpeg' width={130} height={65} alt='Youtube' />
                         </div>
                     </Link>
                     <div className="right">

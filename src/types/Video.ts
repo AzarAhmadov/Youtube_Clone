@@ -1,6 +1,7 @@
 export type VideoI = {
   [x: string]: any;
   videos: VideoProps[];
+  class?: string
 };
 
 export type VideoProps = {

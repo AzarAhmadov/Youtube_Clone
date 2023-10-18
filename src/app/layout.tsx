@@ -1,5 +1,6 @@
 import Header from '@/common/Header'
 import '../css/globals.scss'
+import Category from '@/components/Category'
 
 export default function RootLayout({
   children,

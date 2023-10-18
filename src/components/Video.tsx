@@ -1,13 +1,14 @@
 import React from 'react';
-import VideoSingleCard from './VideoSingleCard'; // Ensure this import is correct
+import VideoSingleCard from './VideoSingleCard';
 import { VideoI } from '../types/Video';
 
-const Video: React.FC<VideoI> = ({ videos }) => {
+const Video: React.FC<VideoI> = ({ videos, className }) => {
+
     return (
-        <section id='video'>
+        <section id='video' className={className}>
             <div className="container">
-                <div className="row">
-                    {videos.map((item: any, idx: number) => (
+                <div className='row'>
+                    {videos?.map((item: any, idx: number) => (
                         item.id.videoId && <VideoSingleCard key={idx} video={item} />
                     ))}
                 </div>
