@@ -481,12 +481,28 @@ $color-2:#000;
     }
   }
 
+  .video-detail {
+    .container {
+      .row {
+        a {
+          flex-direction: column;
+          margin-bottom: 10px;
+
+          img {
+            width: 100% !important;
+            height: 215px !important;
+          }
+        }
+      }
+    }
+  }
+
   .video-single {
     border-radius: 0px;
 
     img {
       border-radius: 0px;
-      height: 180px;
+      height: 215px;
     }
 
     .content {
@@ -505,11 +521,25 @@ $color-2:#000;
   #slug {
 
     .container {
-      .row {
+      padding: 0;
 
+      .row {
         .left {
+          h6 {
+            padding-left: 10px;
+          }
+
+          p {
+            padding-left: 10px;
+          }
+
           div {
             div {
+              &.datas {
+                padding-left: 10px;
+                margin-bottom: 10px;
+              }
+
               span {
                 margin-left: 15px;
                 font-size: 14px;

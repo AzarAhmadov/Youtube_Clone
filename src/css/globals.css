@@ -382,12 +382,20 @@ body ::-webkit-scrollbar-thumb {
   #search i {
     font-size: 17px;
   }
+  .video-detail .container .row a {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .video-detail .container .row a img {
+    width: 100% !important;
+    height: 215px !important;
+  }
   .video-single {
     border-radius: 0px;
   }
   .video-single img {
     border-radius: 0px;
-    height: 180px;
+    height: 215px;
   }
   .video-single .content {
     padding: 10px;
@@ -397,6 +405,19 @@ body ::-webkit-scrollbar-thumb {
   }
   .video-single .content .title {
     font-size: 15px;
+  }
+  #slug .container {
+    padding: 0;
+  }
+  #slug .container .row .left h6 {
+    padding-left: 10px;
+  }
+  #slug .container .row .left p {
+    padding-left: 10px;
+  }
+  #slug .container .row .left div div.datas {
+    padding-left: 10px;
+    margin-bottom: 10px;
   }
   #slug .container .row .left div div span {
     margin-left: 15px;

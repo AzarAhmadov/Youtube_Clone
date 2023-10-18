@@ -43,7 +43,7 @@ const page: React.FC = () => {
                                 <h6>{title}</h6>
                                 <div>
                                     <p>{channelTitle}</p>
-                                    <div>
+                                    <div className='datas'>
                                         <span>
                                             <i className="fa-solid fa-eye"></i>  {parseInt(viewCount).toLocaleString()} Views
                                         </span>
