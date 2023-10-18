@@ -126,7 +126,8 @@ $color-2:#000;
         }
 
         &:hover {
-          background: #565656;
+          background: #fff;
+          color: $color-2;
         }
       }
     }

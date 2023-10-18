@@ -113,7 +113,8 @@ body ::-webkit-scrollbar-thumb {
   color: #000;
 }
 #category .container .swiper button:hover {
-  background: #565656;
+  background: #fff;
+  color: #000;
 }
 
 #video {
