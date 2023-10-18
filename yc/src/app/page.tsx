@@ -1,9 +1,10 @@
+import Category from '@/components/Category'
 import React from 'react'
 
 const Home: React.FC = () => {
   return (
     <main>
-      page
+      <Category />
     </main>
   )
 }
