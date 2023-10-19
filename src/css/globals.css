@@ -406,6 +406,9 @@ body ::-webkit-scrollbar-thumb {
   .video-single .content .title {
     font-size: 15px;
   }
+  #slug{
+     margin-top:72px;
+  }
   #slug .container {
     padding: 0;
   }
